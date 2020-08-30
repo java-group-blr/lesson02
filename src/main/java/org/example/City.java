@@ -16,7 +16,7 @@ public class City {
         this.name = "JavaBlrGroups" ;
     }
 
-    public void printInfoCity () {   // Вывод информации
+    public void printInfo () {   // Вывод информации
         System.out.println("City information");
         System.out.println("The city is called: " + name);
         System.out.println("Lives in the city: " + population);

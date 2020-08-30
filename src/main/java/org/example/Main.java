@@ -7,9 +7,9 @@ public class Main {
 
 
         System.out.println("--------------------------------------");    // Вывод информации
-        javaCity.printInfoCity();                                        // Вызов метода из класса City
+        javaCity.printInfo();                                        // Вызов метода из класса City
         System.out.println("--------------------------------------");
-        castCity.printInfoCity();
+        castCity.printInfo();
         System.out.println("--------------------------------------");
 
     }
