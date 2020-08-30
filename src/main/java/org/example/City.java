@@ -5,13 +5,15 @@ public class City {
     private String name ;       // приватное строковое поле
     public static final long MAX_NUMBER_OF_PEOPLE = 2000000;    // публичное константное статическое длинночисленное (Long) поле
 
-    public City (int cityPopulation, String cityName) {     // Кастомный конструктор
-        this.population = cityPopulation ;
-        this.name = cityName ;
+    // Конструкторы класса
+    public City (int population, String name) {
+        this.population = population ;
+        this.name = name ;
     }
 
     public City () {
-        // Пустой Конструктор
+        this.population = 30 ;
+        this.name = "JavaBlrGroups" ;
     }
 
     public void printInfoCity () {   // Вывод информации
