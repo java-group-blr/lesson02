@@ -7,7 +7,7 @@ public class City {
 
     public City() {
         this.population = 100000;
-        this.name = "Fanipol";
+        this.name = "Fanipol-sity";
     }
 
     public City(int population, String name) {
