@@ -1,19 +1,22 @@
 package org.example;
 
 public class City {
-    private final int population ;    // приватное целочисленное поле
-    private final String name ;       // приватное строковое поле
-    public static final long MAX_NUMBER_OF_PEOPLE = 2000000;    // публичное константное статическое длинночисленное (Long) поле
+    public final static Long MAX_NUMBER_OF_PEOPLE = 10000L ;    // публичное константное статическое длинночисленное (Long) поле
+    private  int population ;                                // приватное целочисленное поле
+    private  String name ;                                   // приватное строковое поле
+
 
     // Конструкторы класса
     public City (int population, String name) {
         this.population = population ;
         this.name = name ;
+
     }
 
     public City () {
         this.population = 30 ;
         this.name = "JavaBlrGroups" ;
+
     }
 
     public void printInfo () {   // Вывод информации
