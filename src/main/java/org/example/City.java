@@ -6,8 +6,7 @@ public class City {
     private static final Long MAX_NUMBER_OF_PEOPLE = 3000000L;
 
     public City() {
-        this.population = 100000;
-        this.name = "Fanipol";
+        
     }
 
     public City(int population, String name) {
