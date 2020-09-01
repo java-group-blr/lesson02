@@ -18,7 +18,7 @@ public class City {
 
     }
 
-    public void printInfoCity() {
+    public void printInfo() {
 
         System.out.println("Information about the city:");
         System.out.println("My city's population is " + population);

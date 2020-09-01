@@ -7,9 +7,9 @@ public class Main {
         City present = new City(350000,"Grodno");
 
 
-        myCity.printInfoCity();
+        myCity.printInfo();
         System.out.println("------------------------------------");
-        present.printInfoCity();
+        present.printInfo();
 
 
     }
