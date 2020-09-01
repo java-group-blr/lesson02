@@ -5,6 +5,7 @@ public class Main {
         City c1= new City();
         c1.printOnDisplay();
 
+        
     }
 
 }
