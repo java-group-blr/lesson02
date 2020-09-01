@@ -1,12 +1,13 @@
-package com.company;
+package org.example;
 
 public class Main {
     public static void main (String[] args) {
-        City myCity = new City();
-        City infoCity = new City(15000, "Grez" );
+        City homel = new City (43000, "Homel");
+        City grez = new City(15000, "Grez");
+        City mogilev = new City();
 
-        myCity.printInfo();
+        homel.printInfo();
         System.out.println("----------------------------------");
-        infoCity.printInfo();
+        grez.printInfo();
     }
 }
