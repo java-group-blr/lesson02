@@ -1,7 +1,14 @@
 package org.example;
 
-public class Main {
+public class Main{
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        City myCity = new City();
+        City infoCity = new City( 1000000,
+                                     "NYC");
+
+        myCity.printInfo();
+        System.out.println("-+-+-+-+-+-+-+-+-+-+-+-+-");
+        infoCity.printInfo();
     }
+
 }
