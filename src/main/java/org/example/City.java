@@ -1,4 +1,4 @@
-package com.company;
+package org.example;
 
 public class City {
     private final int population;
@@ -31,3 +31,4 @@ public class City {
 
 
 }
+
