@@ -6,12 +6,12 @@ public class City {
     private String name;
     public static final Long MAX_NUMBER_OF_PEOPLE = 10_000_000L;
 
-    City() {
+    public City() {
         this.population = 2_000_000;
         this.name = "Minsk";
     }
 
-    City(int population, String name) {
+    public City(int population, String name) {
         this.population = population;
         this.name = name;
     }
