@@ -16,7 +16,7 @@ package org.example;
         public static final Long MAX_NUMBER_OF_PEOPLE = 2000000L;
 
         public void printInfo () {
-            System.out.println("В городе " + name + "жыве " + population + "невероятных чнловек");
+            System.out.println("В городе " + this.name + "жыве " + this.population + "невероятных чнловек");
         }
     }
 
