@@ -16,6 +16,6 @@ public class City {
     }
 
     public void printInfo() {
-        System.out.println("name+ ", " + population + MAX_NUMBER_OF_PEOPLE);
+        System.out.println(name+ ", " + population + MAX_NUMBER_OF_PEOPLE);
     }
 }
