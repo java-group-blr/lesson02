@@ -63,6 +63,6 @@ public class MainTest {
 
     @Before
     public void setup() throws ClassNotFoundException {
-        myCityClass = Class.forName("org.example.City");
+        myCityClass = Class.forName("org.example.Main$City");
     }
 }
