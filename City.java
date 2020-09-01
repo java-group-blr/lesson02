@@ -1,19 +1,21 @@
 package com.company;
 
 public class City {
-    private int population;
-    private String name;
+    private final int population;
+    private final String name;
 
     public static final long MAX_NUMBER_OF_PEOPLE=2500000;
 
-    public City(String myName, int population) {
-        this.name=myName;
+    public City(int population, String name) {
         this.population=population;
+        this.name=name;
+
     }
 
     public City() {
-        this.name = "Minsk";
         this.population = 2300000;
+        this.name = "Minsk";
+
     }
 
     public void printInfo() {
