@@ -18,8 +18,9 @@ public class City {
 
     }
 
-    public void printInfo() {
+    public void printInfoCity() {
 
+        System.out.println("Information about the city:");
         System.out.println("My city's population is " + population);
         System.out.println("The maximum population of my City is: " + MAX_NUMBER_OF_PEOPLE);
         System.out.println("The name of my City is: " + name);
