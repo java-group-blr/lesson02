@@ -1,8 +1,8 @@
-package com.company;
+package org.example;
 
 public class City {
-    private final int population;
-    private final String name;
+    private int population;
+    private String name;
     public static final Long max_number_of_people=Long.valueOf(5000000);
 
     public City(int population, String name) {
