@@ -19,9 +19,9 @@ public class City {
 
     }
     public void printInfo (){
-        System.out.println ("My car can have this amount of people at once: " + population);
-        System.out.println ("My car has a wheel: " + MAX_NUMBER_OF_PEOPLE);
-        System.out.println ("Color of my car is: " + name);
+        System.out.println ("Сейчас в этом городе: " + population + "людей");
+        System.out.println ("А когда-то людей было: " + MAX_NUMBER_OF_PEOPLE);
+        System.out.println ("А город этот называется " + name);
     }
 
 }
