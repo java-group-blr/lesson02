@@ -1,9 +1,9 @@
-package org.example;
+package com.company;
 
 public class City {
     private int population;
     private String name;
-    public static final Long max_number_of_people=2500000L;
+    public static final Long max_number_of_people=2000000L;
 
     public City(int population, String name) {
         this.population=population;
