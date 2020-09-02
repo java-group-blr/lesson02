@@ -3,7 +3,7 @@ package org.example;
 public class City {
     private int population;
     private String name;
-    public static final Long max_number_of_people=Long.valueOf(5000000);
+    public static final Long max_number_of_people=2500000L;
 
     public City(int population, String name) {
         this.population=population;
