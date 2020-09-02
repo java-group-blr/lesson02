@@ -5,9 +5,9 @@ public class City {
     private String name;
     public static final Long max_number_of_people=Long.valueOf(5000000);
 
-    public City(int myPopulation, String myName) {
-        this.population=myPopulation;
-        this.name=myName;
+    public City(int population, String name) {
+        this.population=population;
+        this.name=name;
     }
 
     public City(){
