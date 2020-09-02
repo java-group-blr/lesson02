@@ -4,7 +4,7 @@ public class City {
     private int population;
     private String name;
 
-    public static final long MAX_NUMBER_OF_PEOPLE = 322228;
+    public static final Long MAX_NUMBER_OF_PEOPLE = 2000000L;
 
     public City(int population, String name){
         this.population = population;
