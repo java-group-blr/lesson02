@@ -2,9 +2,9 @@ package org.example;
 
 public class City {
     private int population;
-
-    private static final long MAX_NUMBER_OF_PEOPLE = 3222280;
     private String name;
+
+    public static final long MAX_NUMBER_OF_PEOPLE = 322228;
 
     public City(int population, String name){
         this.population = population;
