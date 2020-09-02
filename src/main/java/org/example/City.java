@@ -7,7 +7,7 @@ package org.example;
 
         public void printInfo () {
             System.out.println("В городе " + this.name + " жыве " + this.population + " невероятных чнловек");
-            System.out.println("А когда-то было " + MAX_NUMBER_OF_PEOPLE + " человек");
+            System.out.println("А когда-то в нем было " + MAX_NUMBER_OF_PEOPLE + " человек");
         }
 
         public City () {
