@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
-        City myCity = new City();
+        City myCity = new City(1800000, "London");
         myCity.printInfo();
     }
 }
