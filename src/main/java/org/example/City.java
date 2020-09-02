@@ -1,9 +1,9 @@
-package com.company;
+package org.example;
 
 public class City {
     private int population;
     private String name;
-    public static final Long max_number_of_people=2000000L;
+    public static final Long MAX_NUMBER_OF_PEOPLE=2000000L;
 
     public City(int population, String name) {
         this.population=population;
@@ -19,6 +19,6 @@ public class City {
         System.out.println("City information");
         System.out.println("City name: "+name);
         System.out.println("City population: "+population);
-        System.out.println("Maximum number of people in the city: "+max_number_of_people);
+        System.out.println("Maximum number of people in the city: "+MAX_NUMBER_OF_PEOPLE);
     }
 }
