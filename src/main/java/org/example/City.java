@@ -13,6 +13,6 @@ public class City {
     }
 
     public void printInfo() {
-        System.out.println("Minsk " + population);
+        System.out.println(name + population);
     }
 }
